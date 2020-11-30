@@ -168,3 +168,12 @@ h1 {
 .fa {
     font-size: 1.5vw !important;
 }
+
+.demo {
+    width: 90%;
+    height: auto;
+}
+
+.app-link {
+    color: #b76e79 !important;
+}
