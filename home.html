@@ -1,0 +1,141 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Development</title>
+    <link rel="stylesheet" href="index.css">
+    <!-- TODO: add additional links here! e.g. fonts, icons, more stylesheets, etc. -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  </head>
+
+  <body>
+    <main>
+      <nav class="navbar navbar-expand-sm navbar-light sticky-top">
+        <a class="navbar-brand half-highlight-1" href="#" style="margin-left: 6vw;"><b><i>Name.</i></b></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto" style="margin-right: 6vw;">
+            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Portfolio
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="https://portfolio-persona.herokuapp.com/">Persona</a>
+                <a class="dropdown-item" href="https://portfolio-redesign.herokuapp.com/">Redesign</a>
+                <a class="dropdown-item" href="https://portfolio-iterative-design.herokuapp.com/">Iterative Design</a>
+                <a class="dropdown-item" href="#">Development</a>  
+              </div>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+          </ul>
+        </div>
+    </nav>
+    
+    <div><img src="images/baking.jpg" class="header-img" alt="development header image"> </div>
+
+    <div class="container-fluid content">
+        <div class="row intro mt-5">
+          <div class="col col-12 col-lg-4 mb-5">
+            <h1 class="text-center half-highlight-1 project-name"><b>Development</b></h1>
+          </div>
+          <div class="col col-12 col-lg-8">
+          <p style="color: #444444">During quarantine, I got interested in baking and spent most of my spare time trying new recipes. In creating this application, my goal is to 
+            <b>build an interface to display a list of my favorite quarantine baking recipes, which would be easy and convenient for bakers to explore</b>.</p>
+            <p>My app is valuable for bakers because it allows them to <b>filter recipes based on dietary specification, type of pastry and flavor, to sort recipes based on prep time, 
+              cook time and number of servings, as well as to add and remove a particular recipe from the favorite section.</b></p>
+          </div>
+        </div>
+    </div>
+    
+    <div class="container-fluid sub-section fill-2">
+      <div class="row justify-content-center section-content">
+        <h4 class="mt-4 mb-3"><b><i>Context</i></b></h4>
+        </div>
+     
+      <div class="row section-content">
+        <p>Before building the app, I brainstormed about the functionalities to be included in this recipe application. As a baker, I find <b>dietary specification, type of pastry and flavor</b> 
+          important because some of my family members have special dietary restrictions and only like pastries of certain type or flavor. <b>Time management</b> is also important since I 
+          usually multi-task while baking and therefore need to get a good estimation of the required time before getting started. My app aims to meet the user's need for planning by displaying the 
+          total prep time, total cook time and total time (prep plus cook) for the recipes added to the favorite section.  
+        </p>
+      </div>
+    </div>
+
+    <div class="container-fluid sub-section">
+      <div class="row justify-content-center section-content">
+        <h4 class="mt-4 mb-3"><b><i>Final App: Your Quarantine Baking Recipes</i></b></h4>
+        </div>
+     
+      <div class="row section-content justify-content-center">
+        <p><p>Click here to see my final deployed website: <a href="https://create-react-app-recipe.herokuapp.com/"><b><u>Quarantine Baking Recipes</u></b></a>. Here is a small demo of my application.</p>
+      </div>
+
+      <div class="row section-content">
+
+      </div>
+    </div>
+
+
+    <div class="container-fluid sub-section fill-2">
+      <div class="row justify-content-center section-content">
+        <h4 class="mt-4 mb-3 half-highlight-3"><b><i>Usability Considerations</i></b></h4>
+        </div>
+
+      <div class="row section-content">
+        <p>I designed my app based on all three usability criteria: learnability, efficiency and memorability. My major considerations are as follows:</p>
+      </div>
+
+      <div class="row section-content">
+        <ol style="margin-left: 1.5vw;">
+          <li><b>Intuitive layout of navigation bar:</b> all filtering categories and sorting features are presented in a self-explanatory and straightforward way on the very top of the page. 
+            Since there are 6 sorting features in total, a dropdown menu is used which will expand on click.</li>
+          <br>
+          <li><b>Easy return to the original state:</b> users can easily resort back to the original state (i.e., before filtering or sorting) without refreshing the page by clicking "All" 
+            for the filtering categories and choose "Select" for the sorting feature.</li>
+          <br> 
+          <li><b>Clear display of recipe information:</b> each recipe is shown as a card with an image and a corresponding pastry icon to show the pastry type. In particular, I separate the 
+            qualitative and quantitative information of the recipe by using list items, and utilize font sizes, weights and colors to create hierachy between information. </li>
+          <br>
+          <li><b>Guidance on using the favorite section:</b> the favorite section displays the message that says "No favorite recipe added yet" by default to prompt the user to add recipes to favorite.</li>
+          <br>
+          <li><b>Convenient favorite and unfavorite functionalities:</b> once a recipe has been added to the favorite section, the original "Add to Favorite" button will become "Unfavorite", 
+            allowing the user to unfavorite that recipe easily. The same unfavorite function can also be performed in the favorite section with individual favorite recipe.</li>
+          <br>
+          <li><b>Soothing and delightful feel of the website:</b> rose gold is chosen to be the primary color scheme to create a visually pleasant and uplifting tone. </li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="container-fluid sub-section">
+      <div class="row justify-content-center section-content">
+        <h4 class="mt-4 mb-3"><b><i>Conclusion</i></b></h4>
+      </div>
+      <div class="row section-content">
+        <p>As a baker and a user interface designer, it was really fun and rewarding to build this application. In the future, I can extend it by adding the detailed 
+          step-by-step procedure and ingredients info for each pastry and potentially make the favorite section into a separate page (perhaps under user profile). Additional
+          functionalities can also be added to the favorite section such as filtering and sharing to external social media.</p>
+      </div>
+    </div>
+
+      <div class="container-fluid footer text-center">
+        <h5><b>Let's connect!</b></h5>
+        <div class="container mb-2">
+          <i class="fa fa-instagram" style="margin-right: 0.5vw;"></i>
+          <i class="fa fa-linkedin" style="margin-right: 0.5vw;"></i>
+          <i class="fa fa-envelope" style="margin-right: 0.5vw;"></i>
+        </div>
+        <p style="margin-bottom: 0">Made with <span style="color: red">&#128150;</span></p>  
+      </div>
+    </main>
+  </body>
+</html>
