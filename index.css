@@ -166,7 +166,7 @@ h1 {
 }
 
 .fa {
-    font-size: 1.5vw !important;
+    font-size: 2vw !important;
 }
 
 .demo {
@@ -176,4 +176,35 @@ h1 {
 
 .app-link {
     color: #b76e79 !important;
+}
+
+.emojis {
+    font-size: 2.5vw;
+}
+
+@media only screen and (max-width: 1000px) {
+    .project-name {
+        font-size: 30px;
+    }
+
+    .sub-section {
+        padding-left: 10vw; 
+        padding-right: 10vw; 
+        padding-top: 8vh;
+        padding-bottom: 8vh;
+    }
+
+    .intro {
+        padding-left: 10vw; 
+        padding-right: 10vw; 
+    }
+
+    .emojis {
+        font-size: 20px;
+    }
+
+    .fa {
+        font-size: 20px !important;
+    }
+
 }
